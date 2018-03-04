@@ -36,8 +36,8 @@ public class FrontController {
                        Model model){
 
 
-        String addService = "http://addserelasticbeanstalk-env.kq6dyyfhqk.us-east-1.elasticbeanstalk.com/"+num1+"/"+num2; //just a string
-        String subService = "http://subserelasticbeanstalk-env.3da5wbt6ny.us-east-1.elasticbeanstalk.com/"+num1+"/"+num2;
+        String addService = "http://addserapp-env.aycgfae3xy.us-east-1.elasticbeanstalk.com/"+num1+"/"+num2; //just a string
+        String subService = "http://subserapp-env.fjwfmfvehj.us-east-1.elasticbeanstalk.com/"+num1+"/"+num2;
 
         
         try{
